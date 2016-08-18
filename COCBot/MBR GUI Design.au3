@@ -121,7 +121,7 @@ Local $x = 30, $y = 150 + $_GUI_MAIN_TOP
 			GUICtrlSetFont(-1,10, $FW_BOLD)
 		$y += 20
 		$txtCredits =	"Active developers: "  &  @CRLF & _
-						"Boju, Cosote, Hervidero, Kaganus, MonkeyHunter, Sardo, Trlopes, Zengzeng" & @CRLF & @CRLF & _
+						"Boju, Cosote, Hervidero, Kaganus, MonkeyHunter, paspiz85, Sardo, Trlopes, Zengzeng" & @CRLF & @CRLF & _
                         "Retired developers: "  &  @CRLF & _
 						"Antidote, AtoZ, Barracoda, Didipe, Dinobot, DixonHill, DkEd, GkevinOD, HungLe, Knowjack, LunaEclipse, ProMac, Safar46, Saviart, TheMaster1st, and others"
 		$lbltxtCredits1 = GUICtrlCreateLabel($txtCredits, $x+5, $y, 410,120, BITOR($WS_VISIBLE, $ES_AUTOVSCROLL, $SS_LEFT),0)
